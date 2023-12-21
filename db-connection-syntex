@@ -1,0 +1,13 @@
+<?php 
+$servername = "localhost";
+$username = "root";
+$password = "";
+$database = "db_name";
+
+$con=mysqli_connect($servername, $username, $password, $database);
+if(!$con)
+{
+    die("Can't Connect to database". $mysqli_connect_error);
+}
+
+?>
